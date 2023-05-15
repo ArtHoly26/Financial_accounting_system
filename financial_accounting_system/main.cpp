@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <fstream>
 
@@ -45,15 +45,15 @@ int main()
 	bool check = false;
 	int  choise;
 	int choiseEnter;
-	cout << "Ïðèëîæåíèå ñèñòåìà ó÷¸òà ôèíàíñîâ, êîòîðàÿ ïîçâîëÿåò âåñòè ó÷¸ò ðàñõîäîâ è äîõîäîâ." << endl;
+	cout << "ÐŸÑ€Ð¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ ÑÐ¸ÑÑ‚ÐµÐ¼Ð° ÑƒÑ‡Ñ‘Ñ‚Ð° Ñ„Ð¸Ð½Ð°Ð½ÑÐ¾Ð², ÐºÐ¾Ñ‚Ð¾Ñ€Ð°Ñ Ð¿Ð¾Ð·Ð²Ð¾Ð»ÑÐµÑ‚ Ð²ÐµÑÑ‚Ð¸ ÑƒÑ‡Ñ‘Ñ‚ Ñ€Ð°ÑÑ…Ð¾Ð´Ð¾Ð² Ð¸ Ð´Ð¾Ñ…Ð¾Ð´Ð¾Ð²." << endl;
 	system("pause");
 	system("cls");
 	do
 	{
-		cout << " Ìåíþ âõîäà " << endl
-			<< "1 - Àâòîðèçàöèÿ íîâîãî ïîëüçîâàòåëÿ" << endl
-			<< "2 - Âîéòè â ãëàâíîå ìåíþ" << endl
-			<< "3 - Âûõîä èç ïðîãðàììû" << endl;
+		cout << " ÐœÐµÐ½ÑŽ Ð²Ñ…Ð¾Ð´Ð° " << endl
+			<< "1 - ÐÐ²Ñ‚Ð¾Ñ€Ð¸Ð·Ð°Ñ†Ð¸Ñ Ð½Ð¾Ð²Ð¾Ð³Ð¾ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ" << endl
+			<< "2 - Ð’Ð¾Ð¹Ñ‚Ð¸ Ð² Ð³Ð»Ð°Ð²Ð½Ð¾Ðµ Ð¼ÐµÐ½ÑŽ" << endl
+			<< "3 - Ð’Ñ‹Ñ…Ð¾Ð´ Ð¸Ð· Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹" << endl;
 		cin >> choiseEnter;
 		system("pause");
 		system("cls");
@@ -76,7 +76,7 @@ int main()
 			exit(choiseEnter == 3);
 			break;
 		default:
-			cout << "Äàííîé êîìàíäû íå ñóùåñòâóåò" << endl;
+			cout << "Ð”Ð°Ð½Ð½Ð¾Ð¹ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹ Ð½Ðµ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚" << endl;
 			break;
 		}
 	} while (!user1.Check());
@@ -87,16 +87,16 @@ int main()
 
 	do
 	{
-		    cout <<   "Ãëàâíîå ìåíþ " << endl
-			<< "1 - Ââåñòè äàííûå îá äîõîäàõ" << endl
-			<< "2 - Ââåñòè äàííûå îá ðàñõîäàõ" << endl
-			<< "3 - Äîõîä çà ìåñÿö" << endl
-			<< "4 - Ðàñõîäû çà ìåñÿö" << endl
-			<< "5 - Óäàëåíèå äàííûõ îá äîõîäàõ"<<endl
-			<< "6 - Óäàëåíèå äàííûõ îá ðàñõîäàõ" << endl
-			<< "7 - Äîõîä çà ãîä" << endl
-			<< "8 - Ðàñõîäû çà ãîä" << endl
-			<< "9 - Âûõîä" << endl;
+		    cout <<   "Ð“Ð»Ð°Ð²Ð½Ð¾Ðµ Ð¼ÐµÐ½ÑŽ " << endl
+			<< "1 - Ð’Ð²ÐµÑÑ‚Ð¸ Ð´Ð°Ð½Ð½Ñ‹Ðµ Ð¾Ð± Ð´Ð¾Ñ…Ð¾Ð´Ð°Ñ…" << endl
+			<< "2 - Ð’Ð²ÐµÑÑ‚Ð¸ Ð´Ð°Ð½Ð½Ñ‹Ðµ Ð¾Ð± Ñ€Ð°ÑÑ…Ð¾Ð´Ð°Ñ…" << endl
+			<< "3 - Ð”Ð¾Ñ…Ð¾Ð´ Ð·Ð° Ð¼ÐµÑÑÑ†" << endl
+			<< "4 - Ð Ð°ÑÑ…Ð¾Ð´Ñ‹ Ð·Ð° Ð¼ÐµÑÑÑ†" << endl
+			<< "5 - Ð£Ð´Ð°Ð»ÐµÐ½Ð¸Ðµ Ð´Ð°Ð½Ð½Ñ‹Ñ… Ð¾Ð± Ð´Ð¾Ñ…Ð¾Ð´Ð°Ñ…"<<endl
+			<< "6 - Ð£Ð´Ð°Ð»ÐµÐ½Ð¸Ðµ Ð´Ð°Ð½Ð½Ñ‹Ñ… Ð¾Ð± Ñ€Ð°ÑÑ…Ð¾Ð´Ð°Ñ…" << endl
+			<< "7 - Ð”Ð¾Ñ…Ð¾Ð´ Ð·Ð° Ð³Ð¾Ð´" << endl
+			<< "8 - Ð Ð°ÑÑ…Ð¾Ð´Ñ‹ Ð·Ð° Ð³Ð¾Ð´" << endl
+			<< "9 - Ð’Ñ‹Ñ…Ð¾Ð´" << endl;
 		cin >> choiseMain;
 		system("pause");
 		system("cls");
@@ -173,7 +173,7 @@ int main()
 					check = true;
 					break;
 				default:
-						cout << "Äàííîãî ìåñÿöà íå ñóùåòñâóåò!" << endl;
+						cout << "Ð”Ð°Ð½Ð½Ð¾Ð³Ð¾ Ð¼ÐµÑÑÑ†Ð° Ð½Ðµ ÑÑƒÑ‰ÐµÑ‚ÑÐ²ÑƒÐµÑ‚!" << endl;
 						system("pause");
 						system("cls");
 					break;
@@ -254,7 +254,7 @@ int main()
 					   check = true;
 					   break;
 				   default:
-					   cout << "Äàííîãî ìåñÿöà íå ñóùåòñâóåò!" << endl;
+					   cout << "Ð”Ð°Ð½Ð½Ð¾Ð³Ð¾ Ð¼ÐµÑÑÑ†Ð° Ð½Ðµ ÑÑƒÑ‰ÐµÑ‚ÑÐ²ÑƒÐµÑ‚!" << endl;
 					   system("pause");
 					   system("cls");
 					   break;
@@ -335,7 +335,7 @@ int main()
 						check = true;
 						break;
 					    default:
-						cout << "Äàííîãî ìåñÿöà íå ñóùåòñâóåò!" << endl;
+						cout << "Ð”Ð°Ð½Ð½Ð¾Ð³Ð¾ Ð¼ÐµÑÑÑ†Ð° Ð½Ðµ ÑÑƒÑ‰ÐµÑ‚ÑÐ²ÑƒÐµÑ‚!" << endl;
 						system("pause");
 						system("cls");
 						break;
@@ -417,7 +417,7 @@ int main()
 					   check = true;
 					   break;
 				   default:
-					   cout << "Äàííîãî ìåñÿöà íå ñóùåòñâóåò!" << endl;
+					   cout << "Ð”Ð°Ð½Ð½Ð¾Ð³Ð¾ Ð¼ÐµÑÑÑ†Ð° Ð½Ðµ ÑÑƒÑ‰ÐµÑ‚ÑÐ²ÑƒÐµÑ‚!" << endl;
 					   system("pause");
 					   system("cls");
 					   break;
@@ -431,7 +431,7 @@ int main()
 			   do
 			   {
 				   MonthTxt();
-				   cout << "Ââåäèòå 0 ÷òîá î÷èñòèòü âñå äàííûå îá äîõîäàõ" << endl;
+				   cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 0 Ñ‡Ñ‚Ð¾Ð± Ð¾Ñ‡Ð¸ÑÑ‚Ð¸Ñ‚ÑŒ Ð²ÑÐµ Ð´Ð°Ð½Ð½Ñ‹Ðµ Ð¾Ð± Ð´Ð¾Ñ…Ð¾Ð´Ð°Ñ…" << endl;
 				   cin >> choise;
 				   switch (choise)
 				   {
@@ -504,7 +504,7 @@ int main()
 					   system("cls");
 					   break;
 				   default:
-					   cout << "Äàííîãî ìåñÿöà íå ñóùåcòâóåò!" << endl;
+					   cout << "Ð”Ð°Ð½Ð½Ð¾Ð³Ð¾ Ð¼ÐµÑÑÑ†Ð° Ð½Ðµ ÑÑƒÑ‰ÐµcÑ‚Ð²ÑƒÐµÑ‚!" << endl;
 					   system("pause");
 					   system("cls");
 					   break;
@@ -518,7 +518,7 @@ int main()
 			   do
 			   {
 				   MonthTxt();
-				   cout << "Ââåäèòå 0 ÷òîá î÷èñòèòü âñå äàííûå îá ðàñõîäàõ" << endl;
+				   cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 0 Ñ‡Ñ‚Ð¾Ð± Ð¾Ñ‡Ð¸ÑÑ‚Ð¸Ñ‚ÑŒ Ð²ÑÐµ Ð´Ð°Ð½Ð½Ñ‹Ðµ Ð¾Ð± Ñ€Ð°ÑÑ…Ð¾Ð´Ð°Ñ…" << endl;
 				   cin >> choise;
 				   switch (choise)
 				   {
@@ -591,7 +591,7 @@ int main()
 					   system("cls");
 					   break;
 				   default:
-					   cout << "Äàííîãî ìåñÿöà íå ñóùåcòâóåò!" << endl;
+					   cout << "Ð”Ð°Ð½Ð½Ð¾Ð³Ð¾ Ð¼ÐµÑÑÑ†Ð° Ð½Ðµ ÑÑƒÑ‰ÐµcÑ‚Ð²ÑƒÐµÑ‚!" << endl;
 					   system("pause");
 					   system("cls");
 					   break;
@@ -602,12 +602,12 @@ int main()
 			   system("cls");
 			   break;
 		   case 7:
-			   cout << "Äîõîä çà ãîä ñîñòàâëÿåò: " << Years_Data_Income() << endl;
+			   cout << "Ð”Ð¾Ñ…Ð¾Ð´ Ð·Ð° Ð³Ð¾Ð´ ÑÐ¾ÑÑ‚Ð°Ð²Ð»ÑÐµÑ‚: " << Years_Data_Income() << endl;
 			   system("pause");
 			   system("cls");
 			   break;
 		   case 8:
-			   cout << "Ðàñõîäû çà ãîä ñîñòàâëÿþò: " << Years_Data_Expenditure() << endl;
+			   cout << "Ð Ð°ÑÑ…Ð¾Ð´Ñ‹ Ð·Ð° Ð³Ð¾Ð´ ÑÐ¾ÑÑ‚Ð°Ð²Ð»ÑÑŽÑ‚: " << Years_Data_Expenditure() << endl;
 			   system("pause");
 			   system("cls");
 			   break;
@@ -615,7 +615,7 @@ int main()
 			   flagMain = true;
 			   break;
 		    default:
-			   cout << "Äàííîé êîìàíäû íå ñóùåñòâóåò ïîïðîáóéòå ñíîâà!" << endl;
+			   cout << "Ð”Ð°Ð½Ð½Ð¾Ð¹ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹ Ð½Ðµ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚ Ð¿Ð¾Ð¿Ñ€Ð¾Ð±ÑƒÐ¹Ñ‚Ðµ ÑÐ½Ð¾Ð²Ð°!" << endl;
 			   break;
 		}
 	} while (!flagMain);
@@ -628,7 +628,7 @@ void Authorization::AuthLogin(string login)
 	try
 	{
 		enterLog.open(path);
-		cout << "Ââåäèòå íîâûé ëîãèí:" << endl;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ñ‹Ð¹ Ð»Ð¾Ð³Ð¸Ð½:" << endl;
 		cin >> login;
 		enterLog << login;
 		this->login = login;
@@ -637,7 +637,7 @@ void Authorization::AuthLogin(string login)
 	catch (const std::exception& ex)
 	{
 		cout << ex.what() << endl;
-		cout << "×òî-òî ïîøëî íå òàê!" << endl;
+		cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 	}
 }
 void Authorization::AuthPassword(string password)
@@ -647,7 +647,7 @@ void Authorization::AuthPassword(string password)
 	try
 	{
 		enterLog.open(path);
-		cout << "Ââåäèòå íîâûé ïàðîëü:" << endl;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ñ‹Ð¹ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ:" << endl;
 		cin >> password;
 		enterLog << password;
 		this->password = password;
@@ -656,7 +656,7 @@ void Authorization::AuthPassword(string password)
 	catch (const std::exception& ex)
 	{
 		cout << ex.what() << endl;
-		cout << "×òî-òî ïîøëî íå òàê!" << endl;
+		cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 	}
 }
 void Authorization::EnterLogin(string login)
@@ -667,10 +667,10 @@ void Authorization::EnterLogin(string login)
 	try
 	{
 		readLog.open(path);
-		if (readLog.peek() == EOF) cout << "Äëÿ âõîäà íåîáõîäèìî ïðîéòè ðåãèñòðàöèþ íîâîãî ïîëüçîâàòåëÿ." << endl;
+		if (readLog.peek() == EOF) cout << "Ð”Ð»Ñ Ð²Ñ…Ð¾Ð´Ð° Ð½ÐµÐ¾Ð±Ñ…Ð¾Ð´Ð¸Ð¼Ð¾ Ð¿Ñ€Ð¾Ð¹Ñ‚Ð¸ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð°Ñ†Ð¸ÑŽ Ð½Ð¾Ð²Ð¾Ð³Ð¾ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ." << endl;
 		else
 		{
-			cout << "Ââåäèòå ëîãèí :" << endl;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð»Ð¾Ð³Ð¸Ð½ :" << endl;
 			cin >> login;
 			while (!readLog.eof())
 			{
@@ -685,7 +685,7 @@ void Authorization::EnterLogin(string login)
 	catch (const std::exception& ex)
 	{
 		cout << ex.what() << endl;
-		cout << "×òî-òî ïîøëî íå òàê!" << endl;
+		cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 	}
 
 }
@@ -702,7 +702,7 @@ void Authorization::EnterPassword(string password)
 
 		else
 		{
-			cout << "Ââåäèòå ïàðîëü :" << endl;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ :" << endl;
 			cin >> password;
 			while (!readPass.eof())
 			{
@@ -716,7 +716,7 @@ void Authorization::EnterPassword(string password)
 	catch (const std::exception& ex)
 	{
 		cout << ex.what() << endl;
-		cout << "×òî-òî ïîøëî íå òàê!" << endl;
+		cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 	}
 }
 void Authorization::DeleteLogin()
@@ -726,13 +726,13 @@ void Authorization::DeleteLogin()
 	try
 	{
 		del.open(path, ifstream::out | ifstream::trunc);
-		if (del.peek() == EOF) cout << "Ýòîò ôàéë ïóñòîé" << endl;
+		if (del.peek() == EOF) cout << "Ð­Ñ‚Ð¾Ñ‚ Ñ„Ð°Ð¹Ð» Ð¿ÑƒÑÑ‚Ð¾Ð¹" << endl;
 		del.close();
 	}
 	catch (const std::exception& ex)
 	{
 		cout << ex.what() << endl;
-		cout << "×òî-òî ïîøëî íå òàê!" << endl;
+		cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 	}
 }
 void Authorization::DeletePassword()
@@ -742,13 +742,13 @@ void Authorization::DeletePassword()
 	try
 	{
 		del.open(path, ifstream::out | ifstream::trunc);
-		if (del.peek() == EOF) cout << "Ýòîò ôàéë ïóñòîé" << endl;
+		if (del.peek() == EOF) cout << "Ð­Ñ‚Ð¾Ñ‚ Ñ„Ð°Ð¹Ð» Ð¿ÑƒÑÑ‚Ð¾Ð¹" << endl;
 		del.close();
 	}
 	catch (const std::exception& ex)
 	{
 		cout << ex.what() << endl;
-		cout << "×òî-òî ïîøëî íå òàê!" << endl;
+		cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 	}
 }
 bool Authorization::Check()
@@ -780,7 +780,7 @@ void Enter_Data_Income(int choise)
 	try
 	{
 		enter.open(path, ofstream::app);
-		cout << "Ââåäèòå äîõîä çà òåêóùèé ìåñÿö" << endl;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð¾Ñ…Ð¾Ð´ Ð·Ð° Ñ‚ÐµÐºÑƒÑ‰Ð¸Ð¹ Ð¼ÐµÑÑÑ†" << endl;
 		getline(cin, notes);
 		enter << notes << "\n";
 		enter.close();
@@ -788,7 +788,7 @@ void Enter_Data_Income(int choise)
 	catch (const std::exception& ex)
 	{
 		cout << ex.what() << endl;
-		cout << "×òî-òî ïîøëî íå òàê!" << endl;
+		cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 	}
 }
 void Enter_Data_Expenditure(int choise)
@@ -813,7 +813,7 @@ void Enter_Data_Expenditure(int choise)
 	try
 	{
 		enter.open(path, ofstream::app);
-		cout << "Ââåäèòå ðàñõîäû çà òåêóùèé ìåñÿö" << endl;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°ÑÑ…Ð¾Ð´Ñ‹ Ð·Ð° Ñ‚ÐµÐºÑƒÑ‰Ð¸Ð¹ Ð¼ÐµÑÑÑ†" << endl;
 		getline(cin, notes);
 		enter << notes << "\n";
 		enter.close();
@@ -821,7 +821,7 @@ void Enter_Data_Expenditure(int choise)
 	catch (const std::exception& ex)
 	{
 		cout << ex.what() << endl;
-		cout << "×òî-òî ïîøëî íå òàê!" << endl;
+		cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 	}
 }
 void Read_Data_Income(int choise)
@@ -845,10 +845,10 @@ void Read_Data_Income(int choise)
 	try
 	{
 		read.open(path,ifstream::in);
-	    if (read.peek() == EOF) cout << "Ýòîò ôàéë ïóñòîé" << endl;
+	    if (read.peek() == EOF) cout << "Ð­Ñ‚Ð¾Ñ‚ Ñ„Ð°Ð¹Ð» Ð¿ÑƒÑÑ‚Ð¾Ð¹" << endl;
 		else
 		{
-			cout << "Äîõîä çà òåêóùèé ìåñÿö: " << endl;
+			cout << "Ð”Ð¾Ñ…Ð¾Ð´ Ð·Ð° Ñ‚ÐµÐºÑƒÑ‰Ð¸Ð¹ Ð¼ÐµÑÑÑ†: " << endl;
 			while (!read.eof())
 			{
 				notes = "";
@@ -862,7 +862,7 @@ void Read_Data_Income(int choise)
 	catch (const std::exception& ex)
 	{
 		cout << ex.what() << endl;
-		cout << "×òî-òî ïîøëî íå òàê!" << endl;
+		cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 	}
 }
 void Read_Data_Expenditure(int choise)
@@ -886,10 +886,10 @@ void Read_Data_Expenditure(int choise)
 	try
 	{
 		read.open(path, ifstream::in);
-		if (read.peek() == EOF) cout << "Ýòîò ôàéë ïóñòîé" << endl;
+		if (read.peek() == EOF) cout << "Ð­Ñ‚Ð¾Ñ‚ Ñ„Ð°Ð¹Ð» Ð¿ÑƒÑÑ‚Ð¾Ð¹" << endl;
 		else
 		{
-			cout << "Ðàñõîäû çà òåêóùèé ìåñÿö: " << endl;
+			cout << "Ð Ð°ÑÑ…Ð¾Ð´Ñ‹ Ð·Ð° Ñ‚ÐµÐºÑƒÑ‰Ð¸Ð¹ Ð¼ÐµÑÑÑ†: " << endl;
 			while (!read.eof())
 			{
 				notes = "";
@@ -902,7 +902,7 @@ void Read_Data_Expenditure(int choise)
 	catch (const std::exception& ex)
 	{
 		cout << ex.what() << endl;
-		cout << "×òî-òî ïîøëî íå òàê!" << endl;
+		cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 	}
 }
 void Delete_Data_Income(int choise)
@@ -925,13 +925,13 @@ void Delete_Data_Income(int choise)
 	try
 	{
 		del.open(path, ifstream::out | ifstream ::trunc);
-		if (del.peek() == EOF) cout << "Ýòîò ôàéë ïóñòîé" << endl;
+		if (del.peek() == EOF) cout << "Ð­Ñ‚Ð¾Ñ‚ Ñ„Ð°Ð¹Ð» Ð¿ÑƒÑÑ‚Ð¾Ð¹" << endl;
 		del.close();
 	}
 	catch (const std::exception& ex)
 	{
 		cout << ex.what() << endl;
-		cout << "×òî-òî ïîøëî íå òàê!" << endl;
+		cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 	}
 }
 void Delete_Data_Expenditure(int choise)
@@ -954,13 +954,13 @@ void Delete_Data_Expenditure(int choise)
 	try
 	{
 		del.open(path, ifstream::out | ifstream::trunc);
-		if (del.peek() == EOF) cout << "Ýòîò ôàéë ïóñòîé" << endl;
+		if (del.peek() == EOF) cout << "Ð­Ñ‚Ð¾Ñ‚ Ñ„Ð°Ð¹Ð» Ð¿ÑƒÑÑ‚Ð¾Ð¹" << endl;
 		del.close();
 	}
 	catch (const std::exception& ex)
 	{
 		cout << ex.what() << endl;
-		cout << "×òî-òî ïîøëî íå òàê!" << endl;
+		cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 	}
 }
 void DeleteExtra_Data_Income()
@@ -985,13 +985,13 @@ void DeleteExtra_Data_Income()
 		try
 		{
 			del.open(path, ifstream::out | ifstream::trunc);
-			if (del.peek() == EOF) cout << "Ýòîò ôàéë ïóñòîé" << endl;
+			if (del.peek() == EOF) cout << "Ð­Ñ‚Ð¾Ñ‚ Ñ„Ð°Ð¹Ð» Ð¿ÑƒÑÑ‚Ð¾Ð¹" << endl;
 			del.close();
 		}
 		catch (const std::exception& ex)
 		{
 			cout << ex.what() << endl;
-			cout << "×òî-òî ïîøëî íå òàê!" << endl;
+			cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 		}
 	}
 }
@@ -1017,13 +1017,13 @@ void DeleteExtra_Data_Expenditure()
 		try
 		{
 			del.open(path, ifstream::out | ifstream::trunc);
-			if (del.peek() == EOF) cout << "Ýòîò ôàéë ïóñòîé" << endl;
+			if (del.peek() == EOF) cout << "Ð­Ñ‚Ð¾Ñ‚ Ñ„Ð°Ð¹Ð» Ð¿ÑƒÑÑ‚Ð¾Ð¹" << endl;
 			del.close();
 		}
 		catch (const std::exception& ex)
 		{
 			cout << ex.what() << endl;
-			cout << "×òî-òî ïîøëî íå òàê!" << endl;
+			cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 		}
 	}
 }
@@ -1065,7 +1065,7 @@ int  Years_Data_Income()
 		catch (const std::exception& ex)
 		{
 			cout << ex.what() << endl;
-			cout << "×òî-òî ïîøëî íå òàê!" << endl;
+			cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 		}
 		read.close();
 	}
@@ -1110,7 +1110,7 @@ int  Years_Data_Expenditure()
 		catch (const std::exception& ex)
 		{
 			cout << ex.what() << endl;
-			cout << "×òî-òî ïîøëî íå òàê!" << endl;
+			cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 		}
 		read.close();
 	}
@@ -1135,7 +1135,7 @@ void MonthTxt()
 	catch (const std::exception& ex)
 	{
 		cout << ex.what() << endl;
-		cout << "×òî-òî ïîøëî íå òàê!" << endl;
+		cout << "Ð§Ñ‚Ð¾-Ñ‚Ð¾ Ð¿Ð¾ÑˆÐ»Ð¾ Ð½Ðµ Ñ‚Ð°Ðº!" << endl;
 		system("pause");
 		system("cls");
 	}
